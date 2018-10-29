@@ -3,9 +3,8 @@ from collections import Counter
 
 def parse_and_analyze():
     """
-    This function will take a list of file names and parse each
-    csv file and return the certified applications with occupation
-    and state columns
+    This function parse the input csv file and return the 
+    certified applications with occupation and state columns
     """
     all_soc_state_data=[]
     
